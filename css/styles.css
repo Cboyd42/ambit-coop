@@ -8,6 +8,15 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*
+Screen 1920 x 1080
+1920 x 0.9 = 1728
+1920 x 0.1 = 192
+
+1080 x 0.9 = 972
+1080 x 0.1 = 108
+*/
+
 
 .container {
     border: 2px solid black;
@@ -25,16 +34,15 @@ html {
 
 .main-content {
     border: 2px solid black;
-    padding: 2px;
-    margin: 2px;
-
+    /*padding: 2px;*/
+    /*margin: 2px;*/
+    height: 400px;
 }
 
 .headline-highlight {
     border: 2px solid black;
-    padding: 2px;
-    margin: 2px;
-
+    /*padding: 2px;*/
+    height: 160px; /* 40% of main-content*/
 }
 
 .headline-highlight-title {
@@ -53,9 +61,26 @@ html {
 
 .headline-tile-collection {
     border: 2px solid black;
-    padding: 2px;
-    margin: 2px;
-    
+    /*padding: 2px;*/
+    /*margin: 2px;*/
+    height: 240px; /* 60% of main-content*/
+}
+
+.headline-tile-collection-list {
+    margin: 0 auto;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    list-style-type: none;
+    /*display: inline-block;*/
+    padding-inline-start: 0px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.headline-tile-collection-list li {
+    width: auto;
+    display: inline-block;
 }
 
 .headline-tile {
@@ -63,6 +88,19 @@ html {
     padding: 2px;
     margin: 2px;
     display: inline-block;
+    height: 150px;
+}
+
+.headline-tile-title {
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
+}
+
+.headline-tile-description {
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
 }
 
 .footer {
