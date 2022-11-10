@@ -19,48 +19,94 @@ Screen 1920 x 1080
 
 
 .container {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 2px;
     margin: 2px;
 }
 
 .header {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: auto;
     height: 50px;
     background-color: lightblue;
     padding: 10px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: lightgreen;
+}
+
+.header-buttons {
+    float: right;
+    width: auto; /* 200px*/
+    height: 40px;
+    /* border: 2px solid black; */
+    /* background-color: lightgreen; */
+}
+
+.header-buttons-list {
+    margin: 0 auto;
+    padding-inline-start: 0px;
+    position: relative;
+    display: block;
+    text-align: center;
+    height: 40px;
+}
+
+.header-buttons-list li {
+    width: auto;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* padding: 2px;
+    margin: 2px; */
 }
 
 .main-content {
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    /* border-right: 2px solid black;
+    border-left: 2px solid black; */
     /*padding: 2px;*/
     /*margin: 2px;*/
     height: 400px;
+    background-color: lightgray;
+    margin: 0 auto;
 }
 
 .headline-highlight {
-    border: 2px solid black;
-    /*padding: 2px;*/
+    /* border: 2px solid black; */
+    /* border-bottom: 2px solid black; */
+    width: 600px;
+    padding-left: 100px;
+    padding-right: 556px;
     height: 160px; /* 40% of main-content*/
+    background-color: lightsalmon;
 }
 
 .headline-highlight-title {
     border: 2px solid black;
     padding: 2px;
     margin: 2px;
-
+    height: 30px;
 }
 
 .headline-highlight-text {
     border: 2px solid black;
     padding: 2px;
     margin: 2px;
-
+    height: 100px;
 }
 
 .headline-tile-collection {
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    /* border-bottom: 2px solid black; */
     /*padding: 2px;*/
     /*margin: 2px;*/
     height: 240px; /* 60% of main-content*/
@@ -89,6 +135,7 @@ Screen 1920 x 1080
     margin: 2px;
     display: inline-block;
     height: 150px;
+    background-color: lightcoral;
 }
 
 .headline-tile-title {
@@ -104,7 +151,7 @@ Screen 1920 x 1080
 }
 
 .footer {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: auto;
     height: 50px;
     background-color: lightblue;
