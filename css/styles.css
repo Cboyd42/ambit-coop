@@ -22,12 +22,14 @@ Screen 1920 x 1080
     /* border: 2px solid black; */
     padding: 2px;
     margin: 2px;
+    height: 100%;
 }
 
 .header {
     /* border: 2px solid black; */
     width: auto;
-    height: 50px;
+    /* height: 50px; */
+    height: 10%;
     background-color: lightblue;
     padding: 10px;
     margin: 0 auto;
@@ -78,6 +80,7 @@ Screen 1920 x 1080
     height: 400px;
     background-color: lightgray;
     margin: 0 auto;
+    height: 50%;
 }
 
 .headline-highlight {
@@ -86,7 +89,8 @@ Screen 1920 x 1080
     width: 600px;
     padding-left: 100px;
     padding-right: 556px;
-    height: 160px; /* 40% of main-content*/
+    /* height: 160px; 40% of main-content */
+    height: 30%;
     background-color: lightsalmon;
 }
 
@@ -124,6 +128,14 @@ Screen 1920 x 1080
     text-align: center;
 }
 
+.headline-tile-box {
+    width: 15%;
+    border: 2px solid black;
+    padding: 2px;
+    display: inline-block;
+    height: 150px;
+}
+
 .headline-tile-collection-list li {
     width: auto;
     display: inline-block;
@@ -153,7 +165,8 @@ Screen 1920 x 1080
 .footer {
     /* border: 2px solid black; */
     width: auto;
-    height: 50px;
+    /* height: 50px; */
+    height: 10%;
     background-color: lightblue;
     padding: 10px;
 }
