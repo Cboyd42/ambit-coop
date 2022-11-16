@@ -13,7 +13,7 @@
             <div class="logo">
                 Logo
             </div>
-            <div class="header-buttons">
+            <div class="header-buttons"> <!-- usually named nav or navigation-->
                 <ul class="header-buttons-list">
                     <li>
                         Button
@@ -28,11 +28,10 @@
                         Button
                     </li>
                 </ul>
-
             </div>
         </div>
         <div class="main-content">
-            <div class="headline-highlight">
+            <div class="headline-highlight"> <!-- Should probably be its own div outside of main-content for modularity -->
                 <!-- headline highlight -->
                 <div class="headline-highlight-title">
                     Headline highlight title
@@ -42,6 +41,9 @@
                 </div>
             </div>
             <div class="headline-tile-collection">
+                <!-- Instead of using a list, create one box and give it a percentage width -->
+                <!-- Then, when there's multiple boxes, we change the percentage width in the style to get ideal width for the current amt of boxes-->
+                <!-- The boxes will be inline-blocks since they will be divs sitting next to each other-->
                 <ul class="headline-tile-collection-list">
                     <li class="headline-tile">
                         <div class="headline-tile-title">
